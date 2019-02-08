@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+
+
+}
+
+.top{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 100%;
+    background: #333;
+    padding: 20px 0;
+    height: 35px;
+}
+
+.l-top p{
+    margin: 0 50px;
+    font-size: 16pt;
+    font-family: Arial;
+    text-align: right;
+    color: #888;
+}
+
+.r-top{
+    text-align: left;
+    text-align: right;
+    margin: 0 10% 0 0 ;
+}
+
+
+
+.r-top a{
+    width: 4%;
+    margin: 0 20px 0 0;
+    font-family: Arial;
+    text-decoration: none;
+    color: #888;
+}
+
+#cart-count{
+    color: white;
+    font-weight: 700;
+}
+
+.bottom{
+    background: darkorange;
+    width: 100%;
+    height: 70px;
+}
+
+.bottom a{
+    color: white;
+    text-decoration: none;
+    font-size: 18pt;
+    font-family: arial;
+    margin: 20px;
+}
+
+
+.header-image img{
+    position: absolute;
+    height: 145px;
+    width: 180px;
+    left: 5%;
+    top: 0;
+    background: lavender;
+    text-align: center;
+}
+
+.l-bot{
+    background: darkorange;
+    padding: 15px 0 0 0;
+    margin-left: 14%;
+}
+
+.l-bot ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.l-bot ul li{
+    float: left;
+    width: 240px;
+    height: 40px;
+    background-color: darkorange;
+    line-height: 40px;
+    text-align: center;
+}
+
+.l-bot ul li a{
+    text-decoration: none;
+}
+
+.l-bot ul li a:hover{
+    color: #444;
+}
+
+.l-bot ul li ul li{
+    display: none;
+    border-bottom: 1px #333 solid;
+    background: orange;
+}
+
+.l-bot ul li:hover ul li{
+    display: block;
+}
+
+.l-bot input{
+    height: 30px;
+    margin: 5px 0 0 50px;
+}
+
+.l-bot button{
+    height: 35px;
+    color: white;
+    background: #444444;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
